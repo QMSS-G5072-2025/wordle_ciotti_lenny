@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wordle_lc3328"
+version = "0.1.0"
+description = "Wordle Helper for Moder Data Structures Course"
+authors = ["Lenny Ciotti"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
