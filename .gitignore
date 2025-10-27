@@ -1,0 +1,24 @@
+# Ignore Python build and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ignore coverage and test output
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore screenshots or images
+console_output.png
+html_output.png
+
