@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "wordle_lc3328"
-version = "0.1.0"
+name = "wordle-lc3328"
+version = "0.1.1"
 description = "Wordle Helper for Moder Data Structures Course"
 authors = ["Lenny Ciotti"]
 license = "MIT"
 readme = "README.md"
+packages = [{ include = "wordle_lc3328", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
